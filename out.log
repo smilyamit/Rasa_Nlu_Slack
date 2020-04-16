@@ -1,0 +1,38 @@
+2020-04-14 23:42:27,772 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-14 23:42:51,412 [ERROR]  Exception occurred while handling uri: 'http://0244af4e.ngrok.io/webhooks/slack/webhook'
+Traceback (most recent call last):
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/slack/webhook not found
+2020-04-14 23:43:05,061 [ERROR]  Exception occurred while handling uri: 'http://0244af4e.ngrok.io/webhooks/slack/webhook'
+Traceback (most recent call last):
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/slack/webhook not found
+2020-04-14 23:43:15,385 [ERROR]  Exception occurred while handling uri: 'http://0244af4e.ngrok.io/webhooks/slack/webhook'
+Traceback (most recent call last):
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/slack/webhook not found
+2020-04-14 23:48:07,223 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-14 23:48:37,750 [ERROR]  Exception occurred while handling uri: 'http://0244af4e.ngrok.io/webhooks/slack/webhook'
+Traceback (most recent call last):
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/koro/PycharmProjects/rasa_n/venv/lib/python3.6/site-packages/sanic/router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/slack/webhook not found
